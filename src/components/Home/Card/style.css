@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Card {
+    margin: 30px;
+    width: 400px;
+    position: relative;
+}
+.img {
+    width: 400px;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+.Price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgb(1, 185, 1);
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
